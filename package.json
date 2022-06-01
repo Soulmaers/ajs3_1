@@ -1,13 +1,22 @@
 {
-  "name": "ajsdz",
+  "name": "ajs3_1",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soulmaers/ajs3_1.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soulmaers/ajs3_1/issues"
+  },
+  "homepage": "https://github.com/Soulmaers/ajs3_1#readme",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.2",
@@ -15,20 +24,10 @@
     "babel-jest": "^28.1.0",
     "eslint": "^8.16.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "jest": "^28.1.0",
-    "jest-babel": "^1.0.1"
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0"
   },
   "dependencies": {
-    "core-js": "^3.22.7",
-    "eslint-plugin-import": "^2.26.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Soulmaers/ajs3_1.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Soulmaers/ajs3_1/issues"
-  },
-  "homepage": "https://github.com/Soulmaers/ajs3_1#readme",
-  "description": ""
+    "core-js": "^3.22.7"
+  }
 }
